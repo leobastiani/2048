@@ -1,7 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <time.h>
-#include <unistd.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <string.h>
+#include <ctype.h>
+#include "misc.h"
 
 //---------------------------------------
 // VARIABLES

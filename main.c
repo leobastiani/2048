@@ -4,7 +4,14 @@ int main() {
 
 	srand(time(0));
 	
-	system("stty cbreak"); // não sei bem o que isso faz, mas é por causa dele que getchar não espera o enter
+	setBufferedInput(false);
+
+	// manual
+	clearScreen();
+	printf("Utilize para W, A, S e D para mover.\n");
+	printf("Aperte U para voltar uma jogada.\n");
+	printf("Aperte ESC para sair.\n");
+	button();
 
 	new_block(1); // cria um novo bloco
 	while(!endgame()) { // enquanto não é o fim do jogo, faça

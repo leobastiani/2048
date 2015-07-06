@@ -33,7 +33,7 @@ int new_block(int create) {
 
 void win() {
 	game.win = 1;
-	system("clear");
+	clearScreen();
 	puts("Parabens!!\n");
 	getchar();
 }

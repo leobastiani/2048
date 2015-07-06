@@ -91,7 +91,7 @@ void render_score() {
 }
 
 void draw() {
-	system("clear");
+	clearScreen();
 	printf("%s", (char *) screen);
 }
 
